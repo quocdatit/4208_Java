@@ -28,8 +28,8 @@ public class MyLogin extends JFrame {
         txt_Username = new JTextField();
         txt_Username.setPreferredSize(new Dimension(220, 24));
         JPanel pn_Username = new JPanel();
-        pn_Username.add(lb_Username, BorderLayout.CENTER);
-        pn_Username.add(txt_Username, BorderLayout.CENTER);
+        pn_Username.add(lb_Username);
+        pn_Username.add(txt_Username);
         
         // Panel: Password
         lb_Password = new JLabel("Mật khẩu");
